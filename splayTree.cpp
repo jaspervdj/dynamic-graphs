@@ -4,7 +4,7 @@
 #include "splayTree.h"
 #include <cassert>
 #include <algorithm>
-
+#include <cstdio>
 
 Node::Node() {
     left_child = right_child = parent = NULL;
